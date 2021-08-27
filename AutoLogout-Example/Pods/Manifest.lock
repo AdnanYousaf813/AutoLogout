@@ -1,0 +1,16 @@
+PODS:
+  - AutoLogout (1.0.0)
+
+DEPENDENCIES:
+  - AutoLogout (from `../AutoLogout/`)
+
+EXTERNAL SOURCES:
+  AutoLogout:
+    :path: "../AutoLogout/"
+
+SPEC CHECKSUMS:
+  AutoLogout: 9ffee68da690a3d1cf03e964de657c32b3857724
+
+PODFILE CHECKSUM: f9cc993062b005dcde7fd387557162064799bb42
+
+COCOAPODS: 1.10.2

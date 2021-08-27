@@ -1,0 +1,6 @@
+framework module AutoLogout {
+  umbrella header "AutoLogout-umbrella.h"
+
+  export *
+  module * { export * }
+}

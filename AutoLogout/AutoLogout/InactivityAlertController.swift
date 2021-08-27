@@ -23,7 +23,8 @@ public class InactivityAlertController: UIViewController {
     
     public init(timer: WatchTimer) {
         self.timer = timer
-        super.init(nibName: nil, bundle: .none)
+        let podBundle = Bundle(for: InactivityAlertController.self)
+        super.init(nibName: "InactivityAlertController", bundle: podBundle)
     }
     
     public required init?(coder aDecoder: NSCoder) {
