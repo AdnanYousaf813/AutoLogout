@@ -139,7 +139,6 @@ class AppCoordinator {
     func logout() {
         
         /// Handle here to move on required screen
-        print("Logout")
         inactivityAlertTimer = nil
         sessionTimeoutTimer = nil
         self.inactivityAlertController?.dismiss(animated: true, completion: nil)
@@ -170,7 +169,6 @@ extension AppCoordinator: InactivityAlertControllerDelegate {
 // MARK: - Window delegate
 extension AppCoordinator: WindowDelegate {
     func window(_ window: Window, touchDetectedIn event: UIEvent) {
-        //authenticationCoordinator?.resetInactivityTimer()
         resetInactivityTimer()
     }
 }
