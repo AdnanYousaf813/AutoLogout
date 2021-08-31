@@ -3,7 +3,7 @@
 AutoLogout is a Swift Library for managing user's session. On inactivity of user you can now alert user via showing alert that your session going to expire soon, as the time is set.
 
 # ScreenShot
-(https://ibb.co/6rkrfXC)
+!(https://ibb.co/6rkrfXC)
 
 ## Installation
 AutoLogout is only available via CocoaPods: 
