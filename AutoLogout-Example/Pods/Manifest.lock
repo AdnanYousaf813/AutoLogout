@@ -1,5 +1,5 @@
 PODS:
-  - AutoLogout (1.0.0)
+  - AutoLogout (1.2)
 
 DEPENDENCIES:
   - AutoLogout (from `../AutoLogout/`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../AutoLogout/"
 
 SPEC CHECKSUMS:
-  AutoLogout: 9ffee68da690a3d1cf03e964de657c32b3857724
+  AutoLogout: b8153dc123cd7941f7ea99525d78a630b6dd45ba
 
 PODFILE CHECKSUM: f9cc993062b005dcde7fd387557162064799bb42
 

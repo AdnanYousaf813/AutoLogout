@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C3AFAC523272E1B45DFAF794BEADA53 /* InactivityAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C5F2EC68DB811221C97BDB56873EF /* InactivityAlertController.swift */; };
-		1D20ABD7349D383065E742E93453C3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		62E90ACFFE8CACA8EB2B2B513CAAFC14 /* AutoLogout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E08D905DB4DD156478EA3D1628CF7DE /* AutoLogout-dummy.m */; };
+		7AE185764BBE19270DC0FD92BAD1DE31 /* AutoLogout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3875A8606D588A4D3AFD9574F4375428 /* AutoLogout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E97A7CC0DFAE32760C15A3701F635B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9B2A3DD04AEFE5B3919FE585950986CF /* Pods-AutoLogout-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA29897B88E9E35CAA651AD9E6590423 /* Pods-AutoLogout-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC57D488C44F61B7EB4644C1DF185408 /* InactivityAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4D69C670FE54EA4891F5A54C75B48E67 /* InactivityAlertController.xib */; };
-		BB547DB730985BF8C92611E36AAA4658 /* WatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E983870662B4EED2EBB2880933D8D61C /* WatchTimer.swift */; };
-		C265F309AA587607B563C0E3062465B7 /* AutoLogout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F28949FA5277081911EC7598C8F7B646 /* AutoLogout-dummy.m */; };
-		CF84396A991F8F37B3833D5E0B6B2A4A /* AutoLogout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3849092B5EE9B3E68F859D29834700FA /* AutoLogout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9125106B0E1AB189FC32795803AFFF8 /* WatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF28734A97C1142C6D67A94D2908B6 /* WatchTimer.swift */; };
+		B06DD404B5967FB995B020845E0B2075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D258D5A915897917758AC3D7D5964763 /* InactivityAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ECE3DF6FCEC4B0E0D4B62068D31356 /* InactivityAlertController.swift */; };
+		DFA320AA27CE06AA2518C218B0482B45 /* InactivityAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2609720C44BE3DB2D91C4C00889B660D /* InactivityAlertController.xib */; };
 		E7D2523E8BD925B9CDE8A9495A1A68D3 /* Pods-AutoLogout-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E198225DAAC0D5E0FDF4919467CB50FF /* Pods-AutoLogout-Example-dummy.m */; };
-		FEA1515DF963C6E9BB7419718F7DB3E6 /* AutoLogout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5796AB8B29B49CB9159205B1967F50FA /* AutoLogout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7D6F43D309D9512AC11B2BC6D57D6587 /* PBXContainerItemProxy */ = {
+		9E2EDE1AF20093130722613B1F64E1F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -32,40 +31,31 @@
 /* Begin PBXFileReference section */
 		0643068BB99E17ABC5FA81D287C66DB8 /* Pods-AutoLogout-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutoLogout-Example.modulemap"; sourceTree = "<group>"; };
 		0D1A0A21D6B06380A5AC32BD7BB29815 /* Pods-AutoLogout-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoLogout-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		259E30B93E1276BED05ADB6BA5DBB40C /* AutoLogout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoLogout.release.xcconfig; sourceTree = "<group>"; };
-		3849092B5EE9B3E68F859D29834700FA /* AutoLogout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AutoLogout.h; path = AutoLogout/AutoLogout.h; sourceTree = "<group>"; };
+		0D534A07A8CF3E21F47E3AC10DF47A21 /* AutoLogout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutoLogout-Info.plist"; sourceTree = "<group>"; };
+		139581BB3CC4619F267A7B8037F1ACA3 /* AutoLogout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoLogout.debug.xcconfig; sourceTree = "<group>"; };
+		2609720C44BE3DB2D91C4C00889B660D /* InactivityAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = InactivityAlertController.xib; path = AutoLogout/InactivityAlertController.xib; sourceTree = "<group>"; };
+		30AF28734A97C1142C6D67A94D2908B6 /* WatchTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchTimer.swift; path = AutoLogout/WatchTimer.swift; sourceTree = "<group>"; };
+		3875A8606D588A4D3AFD9574F4375428 /* AutoLogout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoLogout-umbrella.h"; sourceTree = "<group>"; };
 		3926500B9566E7EDB361A65A980717B1 /* AutoLogout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoLogout.framework; path = AutoLogout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4927ECF07511F857920CB3A0A7DC4655 /* AutoLogout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutoLogout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4D69C670FE54EA4891F5A54C75B48E67 /* InactivityAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = InactivityAlertController.xib; path = AutoLogout/InactivityAlertController.xib; sourceTree = "<group>"; };
 		4F86856DA7D74C3EB1C9041E78680FA7 /* Pods-AutoLogout-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutoLogout-Example-Info.plist"; sourceTree = "<group>"; };
-		5796AB8B29B49CB9159205B1967F50FA /* AutoLogout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoLogout-umbrella.h"; sourceTree = "<group>"; };
-		71B8775FD48C052EBB5E706B10C7E8EE /* AutoLogout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoLogout.modulemap; sourceTree = "<group>"; };
+		5167606960A7B40AA30567EB50BFB151 /* AutoLogout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoLogout.release.xcconfig; sourceTree = "<group>"; };
+		58ECE3DF6FCEC4B0E0D4B62068D31356 /* InactivityAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InactivityAlertController.swift; path = AutoLogout/InactivityAlertController.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7576F6835901C005514A6D339DAD4F78 /* AutoLogout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoLogout.debug.xcconfig; sourceTree = "<group>"; };
+		7E08D905DB4DD156478EA3D1628CF7DE /* AutoLogout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoLogout-dummy.m"; sourceTree = "<group>"; };
 		94B3053576F30213DA2B7756974A6D80 /* Pods-AutoLogout-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLogout-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1E5A06DE5C73BA5721945E7F1BAFBE /* AutoLogout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoLogout-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5B602F2312618A0A19C952E4F58095B /* AutoLogout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AutoLogout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A722AE011CC51090C4746D6138FE4303 /* Pods-AutoLogout-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutoLogout-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8E57CBEF75A426D860343BAF75F1F48 /* AutoLogout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoLogout-prefix.pch"; sourceTree = "<group>"; };
 		B84CB37C0A3F9FAEB40C990F95286B6B /* Pods_AutoLogout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutoLogout_Example.framework; path = "Pods-AutoLogout-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C13775BE6E993C1CE4DB4254EDD74625 /* AutoLogout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AutoLogout-Info.plist"; sourceTree = "<group>"; };
-		D09C5F2EC68DB811221C97BDB56873EF /* InactivityAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InactivityAlertController.swift; path = AutoLogout/InactivityAlertController.swift; sourceTree = "<group>"; };
+		C7A17AE9E650EE3986605166898AF49F /* AutoLogout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoLogout.modulemap; sourceTree = "<group>"; };
 		E198225DAAC0D5E0FDF4919467CB50FF /* Pods-AutoLogout-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutoLogout-Example-dummy.m"; sourceTree = "<group>"; };
-		E983870662B4EED2EBB2880933D8D61C /* WatchTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchTimer.swift; path = AutoLogout/WatchTimer.swift; sourceTree = "<group>"; };
-		F28949FA5277081911EC7598C8F7B646 /* AutoLogout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoLogout-dummy.m"; sourceTree = "<group>"; };
 		F74E15B47DB2AD5DC357E5F63EA9F361 /* Pods-AutoLogout-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutoLogout-Example-frameworks.sh"; sourceTree = "<group>"; };
 		FA29897B88E9E35CAA651AD9E6590423 /* Pods-AutoLogout-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutoLogout-Example-umbrella.h"; sourceTree = "<group>"; };
 		FE83AB771508B4BD7F196535189303B9 /* Pods-AutoLogout-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutoLogout-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA3C984DA6D94D13DF8F1E179432F697 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D20ABD7349D383065E742E93453C3BE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CC7F74709AF077F6EBD7C15D65BEC4C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,38 +64,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF86F529DBD276B6DAB1430EB1FE7B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06DD404B5967FB995B020845E0B2075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F64CD2848064FDC319E99783BD98B6 /* Pod */ = {
+		041BD648789B556F77D339558AC9B362 /* AutoLogout */ = {
 			isa = PBXGroup;
 			children = (
-				4927ECF07511F857920CB3A0A7DC4655 /* AutoLogout.podspec */,
+				58ECE3DF6FCEC4B0E0D4B62068D31356 /* InactivityAlertController.swift */,
+				2609720C44BE3DB2D91C4C00889B660D /* InactivityAlertController.xib */,
+				30AF28734A97C1142C6D67A94D2908B6 /* WatchTimer.swift */,
+				7B4341F5D2E45E9EA93FFEF91A83B560 /* Pod */,
+				E78AD92C0CFB09D54FD4638C6D2CC046 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		15AC59FF821A05FC6F27BA37FBDA91D6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8F1306A5685180B1421483161011B72A /* AutoLogout */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		31A3169247569DAC75CE3E7DED414B8B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				71B8775FD48C052EBB5E706B10C7E8EE /* AutoLogout.modulemap */,
-				F28949FA5277081911EC7598C8F7B646 /* AutoLogout-dummy.m */,
-				C13775BE6E993C1CE4DB4254EDD74625 /* AutoLogout-Info.plist */,
-				A8E57CBEF75A426D860343BAF75F1F48 /* AutoLogout-prefix.pch */,
-				5796AB8B29B49CB9159205B1967F50FA /* AutoLogout-umbrella.h */,
-				7576F6835901C005514A6D339DAD4F78 /* AutoLogout.debug.xcconfig */,
-				259E30B93E1276BED05ADB6BA5DBB40C /* AutoLogout.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../AutoLogout-Example/Pods/Target Support Files/AutoLogout";
+			name = AutoLogout;
+			path = ../../AutoLogout;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -133,18 +113,12 @@
 			path = "Target Support Files/Pods-AutoLogout-Example";
 			sourceTree = "<group>";
 		};
-		8F1306A5685180B1421483161011B72A /* AutoLogout */ = {
+		7B4341F5D2E45E9EA93FFEF91A83B560 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3849092B5EE9B3E68F859D29834700FA /* AutoLogout.h */,
-				D09C5F2EC68DB811221C97BDB56873EF /* InactivityAlertController.swift */,
-				4D69C670FE54EA4891F5A54C75B48E67 /* InactivityAlertController.xib */,
-				E983870662B4EED2EBB2880933D8D61C /* WatchTimer.swift */,
-				02F64CD2848064FDC319E99783BD98B6 /* Pod */,
-				31A3169247569DAC75CE3E7DED414B8B /* Support Files */,
+				A5B602F2312618A0A19C952E4F58095B /* AutoLogout.podspec */,
 			);
-			name = AutoLogout;
-			path = ../../AutoLogout;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8FAC43D43811447D0E72DB841F9674FB /* Targets Support Files */ = {
@@ -164,11 +138,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A7F96DA5CD43CECB0477FD5363183205 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				041BD648789B556F77D339558AC9B362 /* AutoLogout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				15AC59FF821A05FC6F27BA37FBDA91D6 /* Development Pods */,
+				A7F96DA5CD43CECB0477FD5363183205 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				91ABD826CC56CFACD0FBECAB25B650B4 /* Products */,
 				8FAC43D43811447D0E72DB841F9674FB /* Targets Support Files */,
@@ -183,6 +165,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E78AD92C0CFB09D54FD4638C6D2CC046 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7A17AE9E650EE3986605166898AF49F /* AutoLogout.modulemap */,
+				7E08D905DB4DD156478EA3D1628CF7DE /* AutoLogout-dummy.m */,
+				0D534A07A8CF3E21F47E3AC10DF47A21 /* AutoLogout-Info.plist */,
+				9A1E5A06DE5C73BA5721945E7F1BAFBE /* AutoLogout-prefix.pch */,
+				3875A8606D588A4D3AFD9574F4375428 /* AutoLogout-umbrella.h */,
+				139581BB3CC4619F267A7B8037F1ACA3 /* AutoLogout.debug.xcconfig */,
+				5167606960A7B40AA30567EB50BFB151 /* AutoLogout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../AutoLogout-Example/Pods/Target Support Files/AutoLogout";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -194,12 +191,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ED6A151CFB27B9A03EC890065923F76 /* Headers */ = {
+		52E5583A9754C78E9311077F45C214F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF84396A991F8F37B3833D5E0B6B2A4A /* AutoLogout.h in Headers */,
-				FEA1515DF963C6E9BB7419718F7DB3E6 /* AutoLogout-umbrella.h in Headers */,
+				7AE185764BBE19270DC0FD92BAD1DE31 /* AutoLogout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,12 +204,12 @@
 /* Begin PBXNativeTarget section */
 		288FAAF8082FC3F0A5DA41B69D17C041 /* AutoLogout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B253B39A8A46C256F977D0F961124A45 /* Build configuration list for PBXNativeTarget "AutoLogout" */;
+			buildConfigurationList = 68B1B87302C13832C4CDBC150934D745 /* Build configuration list for PBXNativeTarget "AutoLogout" */;
 			buildPhases = (
-				8ED6A151CFB27B9A03EC890065923F76 /* Headers */,
-				7F20B57BC84E177B9B589696725BECF5 /* Sources */,
-				BA3C984DA6D94D13DF8F1E179432F697 /* Frameworks */,
-				06C6551D80E2A07F0F159B45F91B9BC1 /* Resources */,
+				52E5583A9754C78E9311077F45C214F2 /* Headers */,
+				1749234BB3FD791F9386D87DD44B77EA /* Sources */,
+				DF86F529DBD276B6DAB1430EB1FE7B2D /* Frameworks */,
+				E80EA7313BFCD5925C73F5A27AD8B428 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C5D5FAA3C3DE587CFB7BD8C291B20E50 /* PBXTargetDependency */,
+				4F213F725433D355D2211AE8A5135FF6 /* PBXTargetDependency */,
 			);
 			name = "Pods-AutoLogout-Example";
 			productName = "Pods-AutoLogout-Example";
@@ -272,14 +268,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06C6551D80E2A07F0F159B45F91B9BC1 /* Resources */ = {
+		DAE7EF8AB4CED5E3F4BCA9BCD5691C7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAE7EF8AB4CED5E3F4BCA9BCD5691C7A /* Resources */ = {
+		E80EA7313BFCD5925C73F5A27AD8B428 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,6 +285,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1749234BB3FD791F9386D87DD44B77EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E90ACFFE8CACA8EB2B2B513CAAFC14 /* AutoLogout-dummy.m in Sources */,
+				D258D5A915897917758AC3D7D5964763 /* InactivityAlertController.swift in Sources */,
+				DFA320AA27CE06AA2518C218B0482B45 /* InactivityAlertController.xib in Sources */,
+				A9125106B0E1AB189FC32795803AFFF8 /* WatchTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2719C3AE7895200AA08DB3FBD8947ED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,32 +304,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F20B57BC84E177B9B589696725BECF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C265F309AA587607B563C0E3062465B7 /* AutoLogout-dummy.m in Sources */,
-				0C3AFAC523272E1B45DFAF794BEADA53 /* InactivityAlertController.swift in Sources */,
-				AC57D488C44F61B7EB4644C1DF185408 /* InactivityAlertController.xib in Sources */,
-				BB547DB730985BF8C92611E36AAA4658 /* WatchTimer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C5D5FAA3C3DE587CFB7BD8C291B20E50 /* PBXTargetDependency */ = {
+		4F213F725433D355D2211AE8A5135FF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AutoLogout;
 			target = 288FAAF8082FC3F0A5DA41B69D17C041 /* AutoLogout */;
-			targetProxy = 7D6F43D309D9512AC11B2BC6D57D6587 /* PBXContainerItemProxy */;
+			targetProxy = 9E2EDE1AF20093130722613B1F64E1F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16EC70FEBDF9AF72E0D5D184C2398ECB /* Release */ = {
+		07D64BA38D6A889214CACBFB2DF0A6F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 259E30B93E1276BED05ADB6BA5DBB40C /* AutoLogout.release.xcconfig */;
+			baseConfigurationReference = 139581BB3CC4619F267A7B8037F1ACA3 /* AutoLogout.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoLogout/AutoLogout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoLogout/AutoLogout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AutoLogout/AutoLogout.modulemap";
+				PRODUCT_MODULE_NAME = AutoLogout;
+				PRODUCT_NAME = AutoLogout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43949F9BFA74EF0459AAE0B8A8520290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5167606960A7B40AA30567EB50BFB151 /* AutoLogout.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -522,41 +553,6 @@
 			};
 			name = Release;
 		};
-		E10423BB4F35CBCA13CABA255E196911 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7576F6835901C005514A6D339DAD4F78 /* AutoLogout.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AutoLogout/AutoLogout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AutoLogout/AutoLogout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AutoLogout/AutoLogout.modulemap";
-				PRODUCT_MODULE_NAME = AutoLogout;
-				PRODUCT_NAME = AutoLogout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.3;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F67B7F3049CD61ADE8CB68CE145C5BC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94B3053576F30213DA2B7756974A6D80 /* Pods-AutoLogout-Example.debug.xcconfig */;
@@ -615,11 +611,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B253B39A8A46C256F977D0F961124A45 /* Build configuration list for PBXNativeTarget "AutoLogout" */ = {
+		68B1B87302C13832C4CDBC150934D745 /* Build configuration list for PBXNativeTarget "AutoLogout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E10423BB4F35CBCA13CABA255E196911 /* Debug */,
-				16EC70FEBDF9AF72E0D5D184C2398ECB /* Release */,
+				07D64BA38D6A889214CACBFB2DF0A6F8 /* Debug */,
+				43949F9BFA74EF0459AAE0B8A8520290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "AutoLogout.h"
 
 FOUNDATION_EXPORT double AutoLogoutVersionNumber;
 FOUNDATION_EXPORT const unsigned char AutoLogoutVersionString[];

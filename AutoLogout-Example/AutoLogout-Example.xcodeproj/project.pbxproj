@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CEEC8EAE45A44A297747E22 /* Pods_AutoLogout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D8840990F2A5374271641F /* Pods_AutoLogout_Example.framework */; };
+		02D50F061B0AA251F7F54458 /* Pods_AutoLogout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15072005D5572D8C0183E7E0 /* Pods_AutoLogout_Example.framework */; };
 		8436221E26D7C3F7008BF45D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436221D26D7C3F7008BF45D /* AppDelegate.swift */; };
 		8436222226D7C3F7008BF45D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436222126D7C3F7008BF45D /* ViewController.swift */; };
 		8436222526D7C3F7008BF45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8436222326D7C3F7008BF45D /* Main.storyboard */; };
@@ -19,9 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1805B53B2A7F993655FCD88D /* Pods-AutoLogout-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLogout-Example.debug.xcconfig"; path = "Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		25B417B1A50485B6D5001AA8 /* Pods-AutoLogout-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLogout-Example.release.xcconfig"; path = "Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example.release.xcconfig"; sourceTree = "<group>"; };
-		32D8840990F2A5374271641F /* Pods_AutoLogout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLogout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15072005D5572D8C0183E7E0 /* Pods_AutoLogout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLogout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436221A26D7C3F7008BF45D /* AutoLogout-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoLogout-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8436221D26D7C3F7008BF45D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8436222126D7C3F7008BF45D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +30,8 @@
 		84BF03EA26D8C45300F2D268 /* AppCoordinater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinater.swift; sourceTree = "<group>"; };
 		84BF03EC26D8C4A500F2D268 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		84BF03EE26D8C4E200F2D268 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		9CD3CA52A4679DB6B36C44E0 /* Pods-AutoLogout-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLogout-Example.release.xcconfig"; path = "Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFC4988FEE1BB6F709AFBBF1 /* Pods-AutoLogout-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLogout-Example.debug.xcconfig"; path = "Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,20 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CEEC8EAE45A44A297747E22 /* Pods_AutoLogout_Example.framework in Frameworks */,
+				02D50F061B0AA251F7F54458 /* Pods_AutoLogout_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63A7EA90AAC541A6C1889D02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15072005D5572D8C0183E7E0 /* Pods_AutoLogout_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8436221126D7C3F7008BF45D = {
 			isa = PBXGroup;
 			children = (
 				8436221C26D7C3F7008BF45D /* AutoLogout-Example */,
 				8436221B26D7C3F7008BF45D /* Products */,
 				CA47F3C6D963B40028A36D65 /* Pods */,
-				E128DE93F6C29417E190873E /* Frameworks */,
+				63A7EA90AAC541A6C1889D02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,18 +91,10 @@
 		CA47F3C6D963B40028A36D65 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1805B53B2A7F993655FCD88D /* Pods-AutoLogout-Example.debug.xcconfig */,
-				25B417B1A50485B6D5001AA8 /* Pods-AutoLogout-Example.release.xcconfig */,
+				CFC4988FEE1BB6F709AFBBF1 /* Pods-AutoLogout-Example.debug.xcconfig */,
+				9CD3CA52A4679DB6B36C44E0 /* Pods-AutoLogout-Example.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E128DE93F6C29417E190873E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				32D8840990F2A5374271641F /* Pods_AutoLogout_Example.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,11 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8436222E26D7C3F8008BF45D /* Build configuration list for PBXNativeTarget "AutoLogout-Example" */;
 			buildPhases = (
-				FB7D66AD57563950E58A0537 /* [CP] Check Pods Manifest.lock */,
+				3D3787B421551323C506B7A3 /* [CP] Check Pods Manifest.lock */,
 				8436221626D7C3F7008BF45D /* Sources */,
 				8436221726D7C3F7008BF45D /* Frameworks */,
 				8436221826D7C3F7008BF45D /* Resources */,
-				05C2F21711DE851E042E1450 /* [CP] Embed Pods Frameworks */,
+				E91617060E2456D726E165BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,24 +165,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		05C2F21711DE851E042E1450 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FB7D66AD57563950E58A0537 /* [CP] Check Pods Manifest.lock */ = {
+		3D3787B421551323C506B7A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,6 +185,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E91617060E2456D726E165BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoLogout-Example/Pods-AutoLogout-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -359,7 +359,7 @@
 		};
 		8436222F26D7C3F8008BF45D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1805B53B2A7F993655FCD88D /* Pods-AutoLogout-Example.debug.xcconfig */;
+			baseConfigurationReference = CFC4988FEE1BB6F709AFBBF1 /* Pods-AutoLogout-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -378,7 +378,7 @@
 		};
 		8436223026D7C3F8008BF45D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25B417B1A50485B6D5001AA8 /* Pods-AutoLogout-Example.release.xcconfig */;
+			baseConfigurationReference = 9CD3CA52A4679DB6B36C44E0 /* Pods-AutoLogout-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
