@@ -47,6 +47,10 @@ public class Window: UIWindow {
 * Setup inactivity Timer as below
 
 ```swift
+
+    private var inactivityAlertShowAfterMinutes = 1.0 /// Time after which pop up will appear for remaining time
+    private var sessionTimeoutAfterMinutes = 2.0 /// Total Session Time Out Time
+    
     private func setupInactivityTimers() {
         guard inactivityAlertTimer == nil else { return }
         inactivityAlertTimer = WatchTimer(duration: .minutes(inactivityAlertShowAfterMinutes)) { [weak self] in
