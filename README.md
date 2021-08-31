@@ -11,6 +11,9 @@ AutoLogout is only available via CocoaPods:
 pod 'AutoLogout'
 ```
 
+## ScreenShot
+![alt text](Simulator Screen Shot - iPhone 8 - 2021-08-26 at 16.34.58.png)
+
 ## Usage
 See Example project.
 
