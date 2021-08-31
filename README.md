@@ -12,7 +12,7 @@ pod 'AutoLogout'
 ```
 
 ## ScreenShot
-![alt text](Simulator Screen Shot - iPhone 8 - 2021-08-26 at 16.34.58.png)
+![alt text](https://github.com/AdnanYousaf813/AutoLogout/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202021-08-26%20at%2016.34.58.png)
 
 ## Usage
 See Example project.
