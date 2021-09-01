@@ -198,4 +198,4 @@ For more Detail See Example project.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-MKProgress is released under the [MIT](https://choosealicense.com/licenses/mit/) license.
+AutoLogout is released under the [MIT](https://choosealicense.com/licenses/mit/) license.
